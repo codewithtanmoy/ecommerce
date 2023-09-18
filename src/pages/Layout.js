@@ -37,11 +37,6 @@ const Layout = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/product">
-                  Product
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link className="nav-link" to="/contact">
                   Contact
                 </Link>
