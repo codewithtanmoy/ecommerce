@@ -98,7 +98,7 @@ const Home = () => {
 
   return (
     <div>
-      <h2>Product List</h2>
+      <h2>Home Page Product List</h2>
 
       {error && <p>{error}</p>}
       {!products ? (
