@@ -7,7 +7,7 @@ import About from "./pages/About";
 import Registration from "./pages/Registration";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
-import Product from "./pages/Product";
+//import Product from "./pages/Product";
 
 const App = () => {
   return (
@@ -18,7 +18,6 @@ const App = () => {
           <Route exact index element={<Home />} />
           <Route exact path="About" element={<About />} />
           <Route exact path="Registration" element={<Registration />} />
-          <Route exact path="Product" element={<Product />} />
           <Route exact path="Contact" element={<Contact />} />
           <Route exact path="*" element={<NoPage />} />
         </Route>
